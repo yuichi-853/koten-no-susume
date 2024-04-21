@@ -27,13 +27,16 @@ header {
     top: 0;
     width: 100%;
     overflow: hidden;
-    position:fixed;
+    position: fixed;
     background: white;
     padding: 15px 20px 10px;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    
+}
+
+#header-books {
+    position: static;
 }
 
 /* header navigations */
@@ -194,6 +197,69 @@ header {
 .price {
     margin-left: 0.7rem;
     color: #a31023;
+}
+
+/* book-list */
+
+#book-list {
+    margin: 40px auto;
+    padding: 0 10%;
+}
+
+.book-list-frame {
+    margin: 12px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.26);;
+}
+
+.book-list-content {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.book-list-img {
+    width: auto; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.book-list-info {
+    flex: 1; /* Take remaining space */
+}
+
+.book-list-info-title {
+    margin: 10px;
+    text-align: center;
+}
+
+.book-list-info-writer {
+    text-align: right;
+}
+
+.book-list-info-difficulty {
+    text-align: right;
+}
+
+.book-list-info-description{
+    margin-top: 5px;
+}
+
+.book-list-info-description-headline {
+    text-align: left;
+}
+
+.book-list-info-description-sentence {
+    margin-top: 4px;
+    text-align: left;
+}
+
+.book-list-info-copy {
+    font-size: 10px;
+    text-align: right;
+    margin-right: 15px;
 }
 
 /* announcement */
