@@ -49,6 +49,9 @@ header {
     padding: 0 10px;
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header-nav-link {
@@ -123,12 +126,18 @@ header {
 
 .introduction-title{
     text-align: center;
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 2rem;
 }
 
 .introduction-content {
     text-align: center;
-    font-size: 1.2rem;
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
     margin: 20px;
     padding: 0 100px;
 }
@@ -144,7 +153,11 @@ header {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    margin: 0 0 10px 10px;
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 0 30px 10px;
+    text-align: center;
 }
 
 .items-grid {
@@ -200,6 +213,12 @@ header {
 }
 
 /* book-list */
+.book-list-genre {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
 
 #book-list {
     margin: 40px auto;

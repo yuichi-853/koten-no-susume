@@ -13,30 +13,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Darumadrop+One&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
     <title>古典のすゝめ</title>
 </head>
 <body>
     <header id="header-books">
-        <div class="site-header-books">
+        <div class="site-header">
             <a href="index.html">
                 <img src="images/logo/main-logo.png" alt="古典のすゝめ">
             </a>
         </div>
         <nav class="header-nav">
             <ul>
-                <li><a href="about.html" class="header-nav-link">About</a></li>
-                <li><a href="books.html" class="header-nav-link">Books</a></li>
-                <li><a href="contact.html" class="header-nav-link">Contact</a></li>
-                <li><a href="other-books.html" class="header-nav-link">Other Books</a></li>
+                <li><a href="foreign-literature.html" class="header-nav-link">海外文学</a></li>
+                <li><a href="japanese-literature.html" class="header-nav-link">日本文学</a></li>
+                <li><a href="other-books.html" class="header-nav-link">その他作品</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!--book-list-->
+        <h1 class="book-list-genre">海外文学</h1>
+
         <section id="book-list" class="container">
             <div class="book-list-frame">
-                    <a href="#">
+                    <a href="https://www.aozora.gr.jp/cards/001094/card42606.html" target="_blank">
                         <div class="book-list-content">
                             <img src="images/books/les_misérables.jpg" class="book-list-img" alt="レ・ミゼラブル">
                             <div class="book-list-info">
@@ -55,16 +59,16 @@
             </div>
 
             <div class="book-list-frame">
-                    <a href="#">
+                    <a href="https://www.aozora.gr.jp/cards/000363/card56656.html">
                         <div class="book-list-content">
-                            <img src="images/books/shukke-to-sonodeshi.jpg" class="book-list-img" alt="出家とその弟子">
+                            <img src="images/books/tsumi-to-batsu.jpg" class="book-list-img" alt="罪と罰">
                             <div class="book-list-info">
-                                <h2 class="book-list-info-title">出家とその弟子</h2>
-                                <h4 class="book-list-info-writer">作: 倉田百三</h4>
-                                <h4 class="book-list-info-difficulty">読み易さ: ⭐⭐⭐⭐⭐</h4>
+                                <h2 class="book-list-info-title">罪と罰</h2>
+                                <h4 class="book-list-info-writer">作: ドストエフスキー / 訳: 江川卓</h4>
+                                <h4 class="book-list-info-difficulty">読み易さ: ⭐</h4>
                                 <div class="book-list-info-description">
-                                    <h3 class="book-list-info-description-headline">理想主義で貫かれた、「愛」の物語</h3>
-                                    <p class="book-list-info-description-sentence">　ひとりの徒刑囚が聖人として生涯を終えるまでの怒涛の人生を描いた、魂が震える物語である。善悪とは何か、人はどう生きるべきか。道徳や倫理について、改めて考えるきっかけを与えてくれる作品である。岩波文庫全4巻の超大作だ。</p>
+                                    <h3 class="book-list-info-description-headline">倫理、思想、心理、幅広いテーマを包含する「現代の預言書」</h3>
+                                    <p class="book-list-info-description-sentence">　ドストエフスキーの真骨頂である、人間の精神性、心理を深く穿った作品である。多くのテーマを包含する上、哲学性の高い小説であるため、極めて難解ではあるが、非常に読みごたえがある。長編小説における世界的な名作。</p>
                                 </div>
                                 <p class="book-list-info-copy">書影: 岩波書店</p>
                             </div>
@@ -73,111 +77,6 @@
                 </div>
             </div>
 
-        </section>
-
-        <!--bestsellers-->
-        <section id="bestsellers" class="container">
-            <h1 class="headline">管理人のおすすめ</h1>
-            
-            <div class="items-grid">
-                <div class="items">
-                    <a href="#">
-                        <img src="images/les_misérables.jpg" alt="les misérables">
-                        <div class="items-description">
-                            <h2 class="items-description-title">Les Misérables</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐  123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="items">
-                    <a href="#">
-                        <img src="images/ninngenn_no_kensetsu.jpg" alt="ningen no kensetu">
-                        <div class="items-description">
-                            <h2 class="items-description-title">Ningen no Kensetsu</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐  123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="items">
-                    <a href="#">
-                        <img src="images/notes_from_underground.jpg" alt="notes from underground">
-                        <div class="items-description">
-                            <h2 class="items-description-title">Notes from Underground</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐  123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="items">
-                    <a href="#">
-                        <img src="images/ping_pong.jpg" alt="ping pong">
-                        <div class="items-description">
-                            <h2 class="items-description-title">Ping Pong</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐  123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="items">
-                    <a href="#">
-                        <img src="images/the_never_ending_story.jpg" alt="the never ending story">
-                        <div class="items-description">
-                            <h2 class="items-description-title">The Never Ending Story</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐  123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="items">
-                    <a href="#">
-                        <img src="images/the_priest_and_his_apprentice.jpg" alt="the priest and his the_priest_and_his_apprentice">
-                        <div class="items-description">
-                            <h2 class="items-description-title">The Priest and His Apprentice</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐ 123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="items">
-                    <a href="#">
-                        <img src="images/the_silber_spoon.jpg" alt="The Silber Spoon">
-                        <div class="items-description">
-                            <h2 class="items-description-title">The Silber Spoon</h2>
-                            <p class="items-description-reviews">⭐⭐⭐⭐⭐ 123 Reviews</p>
-                            <div class="items-description-price">
-                                <h2 class="from">from:</h2>
-                                <h2 class="price">$12.34</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
         </section>
         
         <!-- announcement -->
