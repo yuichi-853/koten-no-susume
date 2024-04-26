@@ -262,10 +262,13 @@ header {
     text-align: right;
 }
 
-.book-list-info-aozora {
+.book-list-info-link {
+    text-align: right;
+}
+
+.book-list-info-link-aozora {
     color: blue;
     text-decoration: underline;
-    text-align: right;
 }
 
 .book-list-info-description{
