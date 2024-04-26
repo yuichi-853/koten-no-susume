@@ -262,6 +262,12 @@ header {
     text-align: right;
 }
 
+.book-list-info-aozora {
+    color: blue;
+    text-decoration: underline;
+    text-align: right;
+}
+
 .book-list-info-description{
     margin-top: 5px;
 }
@@ -278,7 +284,7 @@ header {
 .book-list-info-copy {
     font-size: 10px;
     text-align: right;
-    margin-right: 15px;
+    margin: 10px 15px 0px 0px;
 }
 
 /* announcement */
