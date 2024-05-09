@@ -4,6 +4,7 @@
     font-size: 15px;
     font-family: "Zen Old Mincho", serif;
     line-height: 25px;
+    background-color: #f4f4f4;
 }
 
 * {
@@ -40,6 +41,7 @@ header {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    background-color: #f4f4f4;
 }
 
 #header-books {
@@ -177,6 +179,7 @@ header {
     max-width: 200px;
     display: flex;
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.26);
+    background-color: white;
 }
 
 .items img {
@@ -233,6 +236,7 @@ header {
 }
 
 .book-list-frame {
+    background-color: white;
     margin: 12px 0px;
     padding: 20px;
     display: flex;
