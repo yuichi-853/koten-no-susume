@@ -142,6 +142,15 @@ header {
 }
 
 .introduction-content {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin: 20px;
+    padding: 0 100px;
+}
+
+.introduction-content-otherbooks {
     text-align: center;
     font-family: "Zen Old Mincho", serif;
     font-weight: 400;
@@ -149,6 +158,11 @@ header {
     font-size: 1.4rem;
     margin: 20px;
     padding: 0 100px;
+}
+
+.link-style {
+    color: blue;
+    text-decoration: underline;
 }
 
 /* bestsellers */
